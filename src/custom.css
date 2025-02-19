@@ -1,0 +1,26 @@
+
+body
+{
+    font-family: 'Inter', sans-serif;
+}
+
+.container {
+    margin: auto;
+}
+
+.dropdown:focus-within .dropdown-menu {
+    display: block;
+  }
+
+  .swiper-container-flipped {
+    transform: scaleX(-1);
+}
+
+.swiper-container-flipped .swiper-slide {
+    transform: scaleX(-1);
+}
+
+.tilt-parent {
+    perspective: 1000px; /* Apply to the parent container if needed */
+}
+
